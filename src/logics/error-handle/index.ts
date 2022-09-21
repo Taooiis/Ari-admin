@@ -171,14 +171,17 @@ export function setupErrorHandle(app: App) {
     return;
   }
   // Vue exception monitoring;
+  // 视图异常监控；
   app.config.errorHandler = vueErrorHandler;
 
   // script error
+  // 脚本错误
   window.onerror = scriptErrorHandler;
 
   //  promise exception
   registerPromiseErrorHandler();
 
   // Static resource exception
+  // 静态资源异常
   registerResourceErrorHandler();
 }

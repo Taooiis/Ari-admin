@@ -7,8 +7,6 @@ export enum LoginStateEnum {
   LOGIN,
   REGISTER,
   RESET_PASSWORD,
-  MOBILE,
-  QR_CODE,
 }
 
 const currentState = ref(LoginStateEnum.LOGIN);
@@ -91,11 +89,6 @@ export function useFormRules(formData?: Recordable) {
           account: accountFormRule,
           ...mobileRule,
         };
-
-      // mobile form rules
-      case LoginStateEnum.MOBILE:
-        return mobileRule;
-
       // login form rules
       default:
         return {

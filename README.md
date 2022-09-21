@@ -27,7 +27,7 @@ Vue Vben Admin 使用了最新的`vue3`,`vite2`,`TypeScript`,`Pinia`等主流技
 - [node](http://nodejs.org/) 和 [git](https://git-scm.com/) -项目开发环境
 - [Vite](https://vitejs.dev/) - 熟悉 vite 特性
 - [Vue3](https://v3.vuejs.org/) - 熟悉 Vue 基础语法
-- [Pinia](https://pinia.vuejs.org/) - 使用Pinia 代替了 vuex 参考 Pinia 基础语法
+- [Pinia](https://pinia.vuejs.org/) - 使用Pinia 代 替了 vuex 参考 Pinia 基础语法
 - [TypeScript](https://www.typescriptlang.org/) - 熟悉`TypeScript`基本语法
 - [Es6+](http://es6.ruanyifeng.com/) - 熟悉 es6 基本语法
 - [Vue-Router-Next](https://next.router.vuejs.org/) - 熟悉 vue-router 基本使用
