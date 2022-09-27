@@ -94,6 +94,7 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
 
     optimizeDeps: {
       // @iconify/iconify: The dependency is dynamically and virtually loaded by @purge-icons/generated, so it needs to be specified explicitly
+      //@iconify/iconify：依赖项是由@purge-icons/generated动态虚拟加载的，因此需要显式指定
       include: [
         '@iconify/iconify',
         'ant-design-vue/es/locale/zh_CN',

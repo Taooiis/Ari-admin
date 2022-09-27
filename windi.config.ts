@@ -24,8 +24,8 @@ export default defineConfig({
 });
 
 /**
- * Used for animation when the element is displayed
- * @param maxOutput The larger the maxOutput output, the larger the generated css volume
+ * 显示元素时用于动画
+ * @param maxOutput maxOutput输出越大，生成的css卷越大
  */
 function createEnterPlugin(maxOutput = 7) {
   const createCss = (index: number, d = 'x') => {
